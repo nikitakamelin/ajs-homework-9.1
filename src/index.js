@@ -9,3 +9,6 @@ GameSavingLoader.load()
 		return JSON.parse(data);
 	})
 	.catch(err => console.log('Error: ', err))
+
+
+	const receivedData = await GameSavingLoader.load();
